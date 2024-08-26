@@ -1,0 +1,30 @@
+n = int(input("Enter the value:"))
+if (n>0):
+    print("{} is +NE".format(n))
+elif(n<0):
+    print("{} is -NE".format(n))
+else:
+    print("{} is zero".format(n))
+print("Program Execution competed")
+
+
+
+
+
+value = input("Enter the value:")
+if value == value[::-1]:
+    print("{} is palindrome".format(value))
+else:
+    print("{} is not palindrome".format(value))
+
+
+
+
+value= int(input("Enter the value:"))
+if(value>0):
+    print("{} is +Ne".format(value))
+else:
+    if(value<0):
+      print("{} is -Ne".formst(value))
+    else:
+        print("{} is ZERO".formmat(value))
